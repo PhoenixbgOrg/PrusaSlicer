@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-09 14:34+0200\n"
-"PO-Revision-Date: 2019-04-09 15:18+0200\n"
-"Last-Translator: Oleksandra Iushchenko <yusanka@gmail.com>\n"
+"POT-Creation-Date: 2019-09-09 14:34+0200\n"
+"PO-Revision-Date: 2019-09-09 15:18+0200\n"
+"Last-Translator: Aleksandar Hristov <a.hristov@ncipd.org>\n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -16,43 +16,44 @@ msgstr ""
 
 #: src/slic3r/GUI/AboutDialog.cpp:35
 msgid "About Slic3r"
-msgstr "Про Slic3r"
+msgstr "За Slic3r"
 
 #: src/slic3r/GUI/AboutDialog.cpp:64 src/slic3r/GUI/MainFrame.cpp:52
 msgid "Version"
-msgstr "Версія"
+msgstr "Версия"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:43
 msgid "Shape"
-msgstr "Вигляд (Форма)"
+msgstr "Форма"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:51
 msgid "Rectangular"
-msgstr "Прямокутний"
+msgstr "Правоъгалник"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:55
 #: src/slic3r/GUI/GUI_ObjectManipulation.cpp:118 src/slic3r/GUI/Plater.cpp:136
 #: src/slic3r/GUI/Tab.cpp:2185
 msgid "Size"
-msgstr "Розмір"
+msgstr "Размер"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:56
 msgid "Size in X and Y of the rectangular plate."
-msgstr "Розмір прямокутної подложки за X та Y."
+msgstr "Размер на X и Y правоъгълната плоча"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:62
 msgid "Origin"
-msgstr "Початок координат"
+msgstr "Ориентация"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:63
 msgid ""
 "Distance of the 0,0 G-code coordinate from the front left corner of the "
 "rectangle."
-msgstr "Відстань координат 0,0 G-коду від нижнього лівого кута прямокутника."
+msgstr "Разстояние на координатата 0,0 G-код от левия преден ъгъл на „
+"Правоъгълник."
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:67
 msgid "Circular"
-msgstr "Круговий"
+msgstr "кръгъл"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:70 src/slic3r/GUI/ConfigWizard.cpp:111
 #: src/slic3r/GUI/ConfigWizard.cpp:544 src/slic3r/GUI/ConfigWizard.cpp:558
@@ -88,167 +89,168 @@ msgstr "мм"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:71 src/libslic3r/PrintConfig.cpp:676
 msgid "Diameter"
-msgstr "Діаметр"
+msgstr "Диаметър"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:72
 msgid ""
 "Diameter of the print bed. It is assumed that origin (0,0) is located in the "
 "center."
 msgstr ""
-"Діаметр подложки. Передбачається, що початок координат (0,0) знаходиться в "
-"центрі."
+"Диаметър на леглото. Приема се, че произходът (0,0) се намира в „
+"Център."
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:76 src/slic3r/GUI/GUI_Preview.cpp:239
 #: src/libslic3r/GCode/PreviewData.cpp:175
 msgid "Custom"
-msgstr "Користувацький"
+msgstr "Персонализиране"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:80
 msgid "Load shape from STL..."
-msgstr "Завантажте форму з STL ..."
+msgstr "Заредете формата от STL ..."
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:126
 msgid "Settings"
-msgstr "Налаштування"
+msgstr "Настройки"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:299
 msgid "Choose a file to import bed shape from (STL/OBJ/AMF/3MF/PRUSA):"
-msgstr "Виберіть файл, щоб імпортувати форму полотна з (STL/OBJ/AMF/PRUSA):"
+msgstr "Изберете файл, от който да импортирате формата на леглото (STL/OBJ/AMF/PRUSA):"
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:316 src/slic3r/GUI/GUI_ObjectList.cpp:1252
 msgid "Error! "
-msgstr "Помилка! "
+msgstr "Грешка! "
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:325
 msgid "The selected file contains no geometry."
-msgstr "Обраний файл не містить геометрії."
+msgstr "Избраният файл не съдържа геометрия."
 
 #: src/slic3r/GUI/BedShapeDialog.cpp:329
 msgid ""
 "The selected file contains several disjoint areas. This is not supported."
-msgstr "Обраний файл містить декілька непересічних областей. Не підтримується."
+msgstr "избраният от него файл съдържа няколко пресечени области. Това не се поддържа."
 
 #: src/slic3r/GUI/BedShapeDialog.hpp:44 src/slic3r/GUI/ConfigWizard.cpp:507
 msgid "Bed Shape"
-msgstr "Форма полотна"
+msgstr "Форма на леглото"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:55
 msgid "Network lookup"
-msgstr ""
+msgstr "Търсене на мрежа"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:72
 msgid "Address"
-msgstr ""
+msgstr "Адрес"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:73
 msgid "Hostname"
-msgstr ""
+msgstr "Име на хост"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:74
 msgid "Service name"
-msgstr ""
+msgstr "Име на услугата"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:76
 msgid "OctoPrint version"
-msgstr "Версія OctoPrint"
+msgstr "Версия на OctoPrint"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:218
 msgid "Searching for devices"
-msgstr ""
+msgstr "Търсене на устройства"
 
 #: src/slic3r/GUI/BonjourDialog.cpp:225
 msgid "Finished"
-msgstr ""
+msgstr "Завършен"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:15
 msgid "Buttons And Text Colors Description"
-msgstr ""
+msgstr "Описание на бутоните и текстовите цветове"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:40
 msgid "Value is the same as the system value"
-msgstr ""
+msgstr "Стойността е същата като системната стойност"
 
 #: src/slic3r/GUI/ButtonsDescription.cpp:57
 msgid ""
 "Value was changed and is not equal to the system value or the last saved "
 "preset"
-msgstr ""
+msgstr "Стойността беше променена и не е равна на системната стойност или последната записана"
+"Предварително зададено"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:17
 msgid "Upgrade"
-msgstr ""
+msgstr "Upgrade"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:19
 msgid "Downgrade"
-msgstr ""
+msgstr "Downgrade"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:21
 msgid "Before roll back"
-msgstr ""
+msgstr "Преди да се върнете обратно"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:23
 msgid "User"
-msgstr ""
+msgstr "Потребител"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:26
 msgid "Unknown"
-msgstr ""
+msgstr "Неизвестен"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:38
 msgid "Active: "
-msgstr ""
+msgstr "Активен:"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:44
 msgid "slic3r version"
-msgstr "версія slic3r"
+msgstr "версия на slic3r"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:45 src/slic3r/GUI/Preset.cpp:1250
 msgid "print"
-msgstr ""
+msgstr "печат"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:46
 msgid "filaments"
-msgstr ""
+msgstr "Филаменти"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:47 src/slic3r/GUI/Preset.cpp:1254
 msgid "printer"
-msgstr ""
+msgstr "Принтер"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:51 src/slic3r/GUI/Tab.cpp:872
 msgid "vendor"
-msgstr ""
+msgstr "продавач"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:51
 msgid "version"
-msgstr "версія"
+msgstr "версяя"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:52
 msgid "min slic3r version"
-msgstr "мінімальна версія slic3r"
+msgstr "минимална версия на slic3r"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:54
 msgid "max slic3r version"
-msgstr "максимальна версія slic3r"
+msgstr "максимална версия на slic3r"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:57
 msgid "model"
-msgstr ""
+msgstr "модел"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:57
 msgid "variants"
-msgstr ""
+msgstr "варианти"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:69
 msgid "Incompatible with this Slic3r"
-msgstr ""
+msgstr "Несъвместим с този Slic3r"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:72
 msgid "Activate"
-msgstr ""
+msgstr "Активирате"
 
 #: src/slic3r/GUI/ConfigSnapshotDialog.cpp:98
 msgid "Configuration Snapshots"
-msgstr ""
+msgstr "Снимки за конфигурация"
 
 #: src/slic3r/GUI/ConfigWizard.cpp:111
 msgid "nozzle"
